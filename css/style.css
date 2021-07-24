@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    background-image: url('../img/page-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: #1F1F1F;
+    height: 100px;
+}
+header h1 {
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 45pt;
+    position: relative;
+    top: 25px;
+}
+#form {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 5%;
+    background-color: rgb(143, 0, 0,.8);
+    padding-top: 20px;
+    
+}
+#form label {
+    font-size: 20pt;
+    margin-left: 30%;
+}
+#form input {
+    margin: 20px auto;
+    width: 70%;
+    margin-left: 10%;
+    height: 40px;
+}
+#form select {
+    margin: 20px auto;
+    margin-left: 10%;
+    width: 70%;
+    height: 40px;
+}
+#form button {
+    margin: 20px auto;
+    margin-left: 10%;
+    width: 70%;
+    height: 40px;
+    background-color: #3D3D3D;
+}
+#tableDiv {
+    float: right;
+    background-color: rgb(143, 0, 0,.8);
+    position: relative;
+    right: 5%;
+    top: 30px;
+
+}
+
+#table {
+    margin: 20px;
+}
+
+
+#table th {
+    border: solid 2px #f5f5f5;
+    color: #f5f5f5;
+    /* padding: 5px; */
+    width: 200px;
+    /* height: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F1F1F;
+    font-size: 20pt;
+}
+#table td {
+    border: solid 2px #f5f5f5;
+    color: #f5f5f5;
+    background-color: #3D3D3D;
+    padding: 5px;
+    text-align: center;
+    font-size: 20pt;
+}
+#table p {
+    font-size: 16pt;
+    padding-top: 20px;
+    color: #f5f5f5;
+}
+
